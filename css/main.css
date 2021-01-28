@@ -115,7 +115,7 @@ footer {
   height: 80px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -134,15 +134,22 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
 }
 
 .flex-container {
+    font-size: 14px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+   align-items: center;
     justify-content: space-between;
+    flex-flow: row wrap ;
+    align-content: center;
+    flex-basis: auto;
+    width: 1350px;
+    height: auto;
+    
+    
 
 }
 
@@ -150,9 +157,13 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
   width: 30%;
-  height: 200px;
+  background-color: #b17272;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
 }
 
 /* ==========================================================================
